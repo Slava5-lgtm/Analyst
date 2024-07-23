@@ -17,5 +17,3 @@ print(float(m))                             # 2.0
 
 
 
-n = int(input()) # 5
-print(n * 2)
