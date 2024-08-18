@@ -49,4 +49,4 @@ while rating != 0:
     rating = int(input('Введите число: '))
 # Вывод количества положительных и отрицательных чисел
 print('Кол-во положительных чисел:', positive_count)
-print('Кол-во отрицательных чисел:', negative_count)
+print('Кол-во отрицательных чисел:', negative_count)  
