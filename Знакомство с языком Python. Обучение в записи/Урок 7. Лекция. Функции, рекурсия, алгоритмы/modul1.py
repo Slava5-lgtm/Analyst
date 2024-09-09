@@ -5,4 +5,3 @@ def max1(a, b):
     if a > b: # Если (if) a > b
         return a # то мы возврашаем (return a)
     return b # Иначе b
-print(max1)
