@@ -9,7 +9,8 @@ def interface():
                                                
 
     command = int(input('Введите число ')) 
- 
+    
+    # Проверка на правильность ввода
     while command != 1 and command != 2: 
         print("Неправильный ввод") 
         command = int(input('Введите число ')) 
