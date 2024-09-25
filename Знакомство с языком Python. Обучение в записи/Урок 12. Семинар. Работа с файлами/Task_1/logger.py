@@ -16,6 +16,21 @@ def input_data(): # Функции input_data и пока обозначим к�
     f"{name};{surname};{phone};{address}\n"
     f"Выбирите вариант: "))
 
+        # Проверка на правильность ввода
+        
+    while var != 1 and var != 2: 
+        print("Неправильный ввод") 
+        var = int(input('Введите число '))
+
+    if var == 1:
+        with open('data_first_variant.csv', 'a', encoding='utf-8') as f:
+            f.write(f"{name}\n {surname}\n {phone}\n {address}\n\n")
+
+    elif var == 2:
+        with open('data_first_variant.csv', 'a', encoding='utf-8') as f:
+            f.write(f"{name};{surname};{phone};{address}\n\n") 
+
+
 def print_data (): # Функции print_data и пока обозначим как пустым ()
     pass
 
